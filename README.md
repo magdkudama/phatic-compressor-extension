@@ -14,7 +14,7 @@ Configure phatic.yml:
           permalink:
             type: 'date'
             param: 'Y/m'
-        MagdKudama\PhaticBlogExtension\PhaticCompressorExtension: ~
+        MagdKudama\PhaticCompressorExtension\PhaticCompressorExtension: ~
 
 More documentation is coming...
 
