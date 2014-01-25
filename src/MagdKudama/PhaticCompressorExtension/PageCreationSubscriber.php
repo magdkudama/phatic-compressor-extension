@@ -14,11 +14,18 @@ class PageCreationSubscriber implements EventSubscriberInterface
     {
         return [
             Events::BEFORE_PAGE_CREATED => ['beforePageCreated', 0],
-            Events::BEFORE_POST_CREATED => ['beforePostCreated', 0]
+            Events::BEFORE_POST_CREATED => ['beforePostCreated', 0],
+            Events::BEFORE_HOMEPAGE_CREATED => ['beforeHomepageCreated', 0]
         ];
     }
 
     public function beforePageCreated(BasePageEvent $event)
+    {
+        $contentCompressed = $this->compressContent($event->getPage()->getPageContent());
+        $event->getPage()->setPageContent($contentCompressed);
+    }
+
+    public function beforeHomepageCreated(BasePageEvent $event)
     {
         $contentCompressed = $this->compressContent($event->getPage()->getPageContent());
         $event->getPage()->setPageContent($contentCompressed);

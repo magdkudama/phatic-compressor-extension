@@ -496,12 +496,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/magdkudama/phatic-blog-extension.git",
-                "reference": "3adb7b99d18a7cfe655f398a07c0654aa4592b03"
+                "reference": "d583ff9795a11f19e9f30c0ee8bbd1c47b5fc0e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magdkudama/phatic-blog-extension/zipball/3adb7b99d18a7cfe655f398a07c0654aa4592b03",
-                "reference": "3adb7b99d18a7cfe655f398a07c0654aa4592b03",
+                "url": "https://api.github.com/repos/magdkudama/phatic-blog-extension/zipball/d583ff9795a11f19e9f30c0ee8bbd1c47b5fc0e4",
+                "reference": "d583ff9795a11f19e9f30c0ee8bbd1c47b5fc0e4",
                 "shasum": ""
             },
             "require": {
@@ -541,7 +541,7 @@
                 "blogging",
                 "php"
             ],
-            "time": "2014-01-25 21:05:13"
+            "time": "2014-01-25 23:27:11"
         },
         {
             "name": "symfony/config",
